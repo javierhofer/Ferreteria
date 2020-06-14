@@ -110,6 +110,13 @@ namespace Ferreteria
         {
             
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            FormFactura MiFactura = new FormFactura();
+            MiFactura.Owner = this;
+            MiFactura.Show();
+        }
     }
 
     /// <summary>

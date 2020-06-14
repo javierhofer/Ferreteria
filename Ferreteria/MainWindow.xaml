@@ -10,7 +10,7 @@
         <Label Content="SELECCIONE CATEGORÍA" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <DataGrid x:Name="MiDataGrid" Margin="268,259,26,43" SelectionChanged="MiDataGrid_SelectionChanged" Width="500" Height="130"/>
         <ComboBox x:Name="ComboCategoria"  HorizontalAlignment="Left" Margin="24,49,0,0" VerticalAlignment="Top" Width="163" SelectionChanged="ComboCategoria_SelectionChanged"/>
-        <Button Content="Generar Factura" HorizontalAlignment="Left" Margin="684,396,0,0" VerticalAlignment="Top" Width="90" Height="28"/>
+        <Button Content="Generar Factura" HorizontalAlignment="Left" Margin="684,396,0,0" VerticalAlignment="Top" Width="90" Height="28" Click="Button_Click_1"/>
         <ListView x:Name="ImageListView" Margin="271,10,26,179">
             <ListView.View>
                 <GridView>

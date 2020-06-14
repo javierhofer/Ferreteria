@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ferreteria", "Ferreteria\Ferreteria.csproj", "{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Presentacion", "Ferreteria.Presentacion", "{7FA09F0A-EB5D-4BFB-B036-91B34BF74B3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Controladores", "Ferreteria.Controladores", "{5A366B47-7F93-45DE-9D8D-6B83F91A1DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Modelo", "Ferreteria.Modelo", "{0B866809-40ED-4697-8CC4-5843306A92CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Persistencia", "Ferreteria.Persistencia", "{BEE2063C-9A4B-4572-AEE9-F84184E07B3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5} = {7FA09F0A-EB5D-4BFB-B036-91B34BF74B3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A011A69-C03F-4EEC-A6C7-EC1D3BD9F4B7}
