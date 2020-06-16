@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Class1
+namespace NProducto
 {
-	public Class1()
+	public class Producto
 	{
 		public int IDProducto { get; set; }
 		public int NombreProducto { get; set; }

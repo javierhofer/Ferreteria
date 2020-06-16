@@ -11,11 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Controladores", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Modelo", "Ferreteria.Modelo", "{0B866809-40ED-4697-8CC4-5843306A92CB}"
 	ProjectSection(SolutionItems) = preProject
-		ClaseDireccion.cs = ClaseDireccion.cs
-		ClaseFactura.cs = ClaseFactura.cs
-		ClasePersona.cs = ClasePersona.cs
-		ClaseProducto.cs = ClaseProducto.cs
-		ClassCategoria.cs = ClassCategoria.cs
+		Categoria.cs = Categoria.cs
+		Cliente.cs = Cliente.cs
+		Direccion.cs = Direccion.cs
+		Factura.cs = Factura.cs
+		Producto.cs = Producto.cs
+		TipoFactura.cs = TipoFactura.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Persistencia", "Ferreteria.Persistencia", "{BEE2063C-9A4B-4572-AEE9-F84184E07B3F}"

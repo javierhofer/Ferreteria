@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
-public class Class1
+namespace NCategoria
 {
-	public Class1()
+	public class Categoria
 	{
 		public int IDCategoria { get; set; }
-		public string NombreCategoria { get; set: }
+		public string NombreCategoria { get; set; } 
 
 	}
 }

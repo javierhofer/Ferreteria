@@ -1,12 +1,13 @@
 ﻿using System;
 
-public class Class1
+namespace NCliente
 {
-	public Class1()
+	public class Cliente
 	{
-		public int IDPersona { get; set; }
+		public int IDCliente { get; set; }
 		public string Nombre { get; set; }
 		public string Apellido { get; set; }
-			
 	}	
+	
+	
 }
