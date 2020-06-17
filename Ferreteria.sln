@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Modelo", "Ferret
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Persistencia", "Ferreteria.Persistencia", "{BEE2063C-9A4B-4572-AEE9-F84184E07B3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDataAccessLibrary", "EFDataAccessLibrary\EFDataAccessLibrary.csproj", "{1680D9A0-630F-48D1-A938-813887556CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +33,17 @@ Global
 		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1680D9A0-630F-48D1-A938-813887556CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1680D9A0-630F-48D1-A938-813887556CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1680D9A0-630F-48D1-A938-813887556CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1680D9A0-630F-48D1-A938-813887556CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5} = {7FA09F0A-EB5D-4BFB-B036-91B34BF74B3F}
+		{1680D9A0-630F-48D1-A938-813887556CFB} = {BEE2063C-9A4B-4572-AEE9-F84184E07B3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A011A69-C03F-4EEC-A6C7-EC1D3BD9F4B7}
