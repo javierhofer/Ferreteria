@@ -10,18 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Controladores", "Ferreteria.Controladores", "{5A366B47-7F93-45DE-9D8D-6B83F91A1DB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Modelo", "Ferreteria.Modelo", "{0B866809-40ED-4697-8CC4-5843306A92CB}"
-	ProjectSection(SolutionItems) = preProject
-		Categoria.cs = Categoria.cs
-		Cliente.cs = Cliente.cs
-		Direccion.cs = Direccion.cs
-		Factura.cs = Factura.cs
-		Producto.cs = Producto.cs
-		TipoFactura.cs = TipoFactura.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ferreteria.Persistencia", "Ferreteria.Persistencia", "{BEE2063C-9A4B-4572-AEE9-F84184E07B3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDataAccessLibrary", "EFDataAccessLibrary\EFDataAccessLibrary.csproj", "{1680D9A0-630F-48D1-A938-813887556CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFDataAccessLibrary", "EFDataAccessLibrary\EFDataAccessLibrary.csproj", "{1680D9A0-630F-48D1-A938-813887556CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferreteria.LibreriaClases", "Ferreteria.LibreriaClases\Ferreteria.LibreriaClases.csproj", "{6AE6522D-A756-427A-9DEE-97B74A84315E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +31,10 @@ Global
 		{1680D9A0-630F-48D1-A938-813887556CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1680D9A0-630F-48D1-A938-813887556CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1680D9A0-630F-48D1-A938-813887556CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE6522D-A756-427A-9DEE-97B74A84315E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE6522D-A756-427A-9DEE-97B74A84315E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE6522D-A756-427A-9DEE-97B74A84315E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE6522D-A756-427A-9DEE-97B74A84315E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{494D57E6-3E49-4FB6-91C0-2B3ABCF086B5} = {7FA09F0A-EB5D-4BFB-B036-91B34BF74B3F}
 		{1680D9A0-630F-48D1-A938-813887556CFB} = {BEE2063C-9A4B-4572-AEE9-F84184E07B3F}
+		{6AE6522D-A756-427A-9DEE-97B74A84315E} = {0B866809-40ED-4697-8CC4-5843306A92CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A011A69-C03F-4EEC-A6C7-EC1D3BD9F4B7}
