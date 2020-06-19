@@ -1,11 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography.X509Certificates;
 
 namespace NCategoria
 {
 	public class Categoria
 	{
-		public int IDCategoria { get; set; }
+		[Key]
+		public int CategoriaID { get; set; }
 		public string NombreCategoria { get; set; } 
 
 	}

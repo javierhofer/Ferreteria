@@ -1,5 +1,6 @@
 ﻿using NTipoFactura;
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography.X509Certificates;
 
 
@@ -7,6 +8,7 @@ namespace NFactura
 {
 	public class Factura
 	{
+		[Key]
 		public int IDFactura { get; set; }
 		public int NumFactura { get; set; }
 		public DateTime FechaFactura { get; set; }
