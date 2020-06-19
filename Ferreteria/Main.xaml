@@ -1,0 +1,15 @@
+﻿<Window x:Class="Ferreteria.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ferreteria"
+        mc:Ignorable="d"
+        Title="Main" Height="450" Width="800">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Button Content="AGREGAR STOCK" HorizontalAlignment="Left" Margin="148,237,0,0" VerticalAlignment="Top" Height="55" Width="132"/>
+        <Button Content="VENDER" HorizontalAlignment="Left" Margin="503,237,0,0" VerticalAlignment="Top" Height="55" Width="143" Click="Button_Click"/>
+        <Label Content="SISTEMA DE FERRETEROS ARGENTINOS" HorizontalAlignment="Left" Margin="65,53,0,0" VerticalAlignment="Top" Height="69" Width="688" FontSize="36" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
