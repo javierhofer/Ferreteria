@@ -28,5 +28,12 @@ namespace Ferreteria
             MiFactura.Owner = this;
             MiFactura.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            FormStock MyForm = new FormStock();
+            MyForm.Owner = this;
+            MyForm.Show();
+        }
     }
 }

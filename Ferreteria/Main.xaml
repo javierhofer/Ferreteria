@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Main" Height="450" Width="800">
     <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
-        <Button Content="AGREGAR STOCK" HorizontalAlignment="Left" Margin="148,237,0,0" VerticalAlignment="Top" Height="55" Width="132"/>
+        <Button Content="AGREGAR STOCK" HorizontalAlignment="Left" Margin="148,237,0,0" VerticalAlignment="Top" Height="55" Width="132" Click="Button_Click_1"/>
         <Button Content="VENDER" HorizontalAlignment="Left" Margin="503,237,0,0" VerticalAlignment="Top" Height="55" Width="143" Click="Button_Click"/>
         <Label Content="SISTEMA DE FERRETEROS ARGENTINOS" HorizontalAlignment="Left" Margin="65,53,0,0" VerticalAlignment="Top" Height="69" Width="688" FontSize="36" FontWeight="Bold"/>
 

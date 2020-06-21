@@ -4,14 +4,16 @@ using EFDataAccessLibrary.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFDataAccessLibrary.Migrations
 {
     [DbContext(typeof(FerreteContext))]
-    partial class FerreteContextModelSnapshot : ModelSnapshot
+    [Migration("20200621021228_test2")]
+    partial class test2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -107,8 +109,8 @@ namespace EFDataAccessLibrary.Migrations
                     b.Property<int>("IDCategoria")
                         .HasColumnType("int");
 
-                    b.Property<string>("NombreProducto")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("NombreProducto")
+                        .HasColumnType("int");
 
                     b.Property<int>("Precio")
                         .HasColumnType("int");
